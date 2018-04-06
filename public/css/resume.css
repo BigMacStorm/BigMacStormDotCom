@@ -59,6 +59,19 @@ h2 {
   color: #003366;
 }
 
+.iframe-inline {
+  -moz-transform: scale(0.8, 0.8); 
+  -webkit-transform: scale(0.8, 0.8); 
+  -o-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8); 
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
