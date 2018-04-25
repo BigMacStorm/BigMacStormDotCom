@@ -449,6 +449,17 @@ mark,
   list-style: none;
 }
 
+.container-no-float {  
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.list-inline-padded {
+  padding-left: 2rem;
+  list-style: none;
+}
+
 .list-inline-item {
   display: inline-block;
 }
